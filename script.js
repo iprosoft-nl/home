@@ -11,7 +11,6 @@ menuIcon.addEventListener("click",()=>{
 navlist.addEventListener("click",()=>{
     navlist.classList.remove("active");
     menuIcon.classList.remove("active");
-    document.d-CVody.classList.remove("open");
 })
 
 
