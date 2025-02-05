@@ -13,20 +13,6 @@ navlist.addEventListener("click",()=>{
     menuIcon.classList.remove("active");
 })
 
-
-
-// rotate text js code 
-let text = document.querySelector(".text p");
-
-if (text) {
-    text.innerHTML = text.innerHTML.split("").map((char, i) =>
-      `<b style="transform:rotate(${i * 6.3}deg")>${char}</b>`
-    ).join("");
-  } else {
-    console.error("Element with ID '.text p' not found.");
-  }
-
-
 // switch between about buttons 
 
 const buttons = document.querySelectorAll('.about-btn button');
