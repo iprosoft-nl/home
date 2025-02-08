@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - iProSoft</title>
+    <!-- Same head content as index.html -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+</head>
+<body>
+    <div class="overlay"></div>
+    <!-- Same header as index.html -->
+    <header>
+        <a href="index.html" class="logo"><span>iProSoft </span></a> 
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="contact.html" class="btn">Let's chat <i class='bx bx-message-dots' ></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/masum_aboutyMe.jpg" alt="" class="aboutHero">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>20+ Year's Experience as Software Engineer</h3>
+            <h4>Experienced Full Stack Java Developer (20+ years) proficient in cloud environments (AWS, Azure), delivering robust software solutions with Java, Spring, Hibernate, and various front-end technologies.</h4>
+            <div class="about-btn">
+                <button class="tab-button active" data-target="skills">Main Skills</button>
+                <button class="tab-button" data-target="awards">Awards</button>
+                <button class="tab-button" data-target="education">Education</button>
+                <button class="tab-button" data-target="certifications">Certification</button>
+            </div>
+            <div class="content-btn">
+                <!-- Main Skills Section -->
+                <div class="content active" id="skills">
+                    <div class="text-box">
+                        <p><strong>Technical Skills</strong></p>
+                        <ul class="skills-list">
+                            <li><i class='bx bx-server'></i> <strong>Backend:</strong> Java, Spring, Hibernate, Node.js</li>
+                            <li><i class='bx bx-code-alt'></i> <strong>Frontend:</strong> Angular, React.js, Thymeleaf</li>
+                            <li><i class='bx bx-cloud'></i> <strong>Cloud:</strong> AWS, Azure, OpenShift, GCP</li>
+                            <li><i class='bx bx-lock'></i> <strong>Security:</strong> SSL, JWT, OAuth</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <!-- Awards Section -->
+                <div class="content" id="awards">
+                    <div class="text-box">
+                        <p>Web Design Award</p>
+                        <span>Award for creativity and user experience.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Code and Development Award</p>
+                        <span>Exceptional coding skills and development techniques.</span>
+                    </div>
+                </div>
+            
+                <!-- Education Section -->
+                <div class="content" id="education">
+                    <div class="text-box">
+                        <a href="https://www.metropolia.fi/en" target="_blank"><p>Metropolia University of Applied Sciences, Espoo, Finland</p></a>    
+                        <a href="https://drive.google.com/file/d/1jc4tWoQ13Z85LE96FGEQS5-FLoFgL8qO/view" target="_blank"><span>Master Degree in Computer Engineering, Major Software Engineering</span></a>
+                    </div>
+                    <div class="text-box">
+                        <div class="text-box">
+                            <a href="https://www.topuniversities.com/universities/evtek-university-applied-sciences" target="_blank"><p>EVTEK University of Applied Sciences, Espoo, Finland</p></a>    
+                            <a href="https://drive.google.com/file/d/1eXI1-ggAT2vBCCVU-IXu0q5dloOwlWK7/view" target="_blank"><span>Bachelor Degree in Computer Engineering, Major Software Engineering</span></a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Certification Section -->
+                <div class="content" id="certifications">
+                    <div class="text-box">
+                        <p>Amazon Web Services (AWS)</p>
+                       <a href="https://www.credly.com/badges/85604591-4ebd-45c4-a097-198f43486a17/linked_in_profile"><span>AWS Certified Developer – Associate</span></a> 
+                    </div>
+    
+                    <div class="text-box">
+                        <p>Amazon Web Services (AWS)</p>
+                        <a href="https://www.credly.com/badges/afca3306-372e-4e0f-82de-a07c24c2e841?source=linked_in_profile"><span>AWS Certified Cloud Practitioner</span></a>
+                    </div>
+    
+                    <div class="text-box">
+                        <p>Cognizant Technology Solutions Corporation</p>
+                        <a href="https://drive.google.com/file/d/1FgG6HJsr6mhLvpw0wDIvoo4RP1nh66yy/view?usp=sharing"><span>FSE (Full Stack Engineer ) Accreditation Accomplishment Certificate</span></a>
+                    </div>
+            </div>
+        </div>  
+
+        <div class="cvContent">
+            <a href="../doc/Masum_Islam_CV.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+        </div>    
+    </div>
+
+    </section>
+
+    
+
+
+    <!-- Same footer and scripts as index.html -->
+    <footer>
+        <p>Copyright 2025 by <span>Muhammed Masum Islam</span> || All Right Reserved.</p>
+    </footer>
+
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

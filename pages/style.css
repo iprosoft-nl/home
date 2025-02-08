@@ -716,28 +716,6 @@ section{
     margin: .5rem 0 1rem 0;
 }
 
-.skills-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.skills-list li {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #444; /* Professional dark gray */
-    padding-left: 10px;
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.skills-list i {
-    font-size: 18px;
-    color: #007bff; /* Professional blue */
-    margin-right: 8px;
-}
-
 
 /* ==================== Contact section css code ============================ */
 
