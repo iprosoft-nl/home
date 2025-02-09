@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - iProSoft</title>
+    <!-- Same head content as services.html -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <a href="index.html" class="logo"><span>iProSoft </span></a> 
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="contact.html" class="btn">Let's chat <i class='bx bx-message-dots' ></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2 class="heading">My Projects</h2>
+            <h3>what iProsoft will do for you</h3>
+        </div>
+        <div class="fillter-buttons">
+            <button class="button mixitup-control-active" data-filter="all">All Work</button>
+            <button class="button" data-filter=".web">Web Development</button>
+            <button class="button" data-filter=".automation">Automations</button>
+            <button class="button" data-filter=".multi-cloud">Cloud Deployment</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>API Development</h3>
+                    <p style="text-align: justify;">We develop scalable, cloud-native APIs using REST, GraphQL, and microservices. Secure authentication via OAuth2, CI/CD pipelines, and Kubernetes ensure high performance and resilience.</p>
+                    <!-- <a href="#" class="readMore">Explore More</a> -->
+                </div>
+                <div class="portfolio-img">
+                    <img src="../img/api-collaboration.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Service Development.</h3>
+                    <p style="text-align: justify;">Web service development uses REST, gRPC, and JSON for communication, API Gateways for routing, and serverless computing for scalability, with security by  OAuth2, JWT and tools like Swagger for design.</p>
+                    <!-- <a href="#" class="readMore">Explore More</a> -->
+                </div>
+                <div class="portfolio-img">
+                    <img src="../img/Web-Development-Services.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix multi-cloud">
+                <div class="portfolio-content">
+                    <h3>Cloud Deployment</h3>
+                    <p style="text-align: justify;">WE specialize in cloud deployment using Kubernetes, Docker, and CDK to deliver scalable, secure, and reliable solutions. With expertise in serverless architectures, CI/CD pipelines, and multi-cloud environments, we ensure high availability, performance, and real-time observability.</p>
+                    <!-- <a href="#" class="readMore">Explore More</a> -->
+                </div>
+                <div class="portfolio-img">
+                    <img src="../img/cloud-deployment-models.jpg" alt="">
+                </div>
+            </div>
+
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Legacy to Cloud</h3>
+                    <p style="text-align: justify;">iProsoft specializes in transforming legacy systems into scalable, cloud-native solutions. We ensure seamless migration with modern technologies like microservices and containerization, enhancing performance, reducing costs, and future-proofing your business.</p>
+                    <!-- <a href="#" class="readMore">Explore More</a> -->
+                </div>
+                <div class="portfolio-img">
+                    <img src="../img/Cloud-and-legacy-systems-for-hybrid-IT.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box automation">
+                <div class="portfolio-content">
+                    <h3>Automation</h3>
+                    <p style="text-align: justify;">We specialize in automation using tools like Ansible, Jenkins, and Selenium to streamline workflows, optimize efficiency, and deliver scalable, secure solutions for your business.</p>
+                    <!-- <a href="#" class="readMore">Explore More</a> -->
+                </div>
+                <div class="portfolio-img">
+                    <img src="../img/automation.svg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix branding">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p style="text-align: justify;">We specialize in web development, building responsive, high-performance sites with React, Angular, and Vue, ensuring scalable, secure, and user-friendly solutions.</p>
+                    <!-- <a href="#" class="readMore">Explore More</a> -->
+                </div>
+                <div class="portfolio-img">
+                    <img src="../img/Web-Development-Services.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Copyright 2025 by <span>Muhammed Masum Islam</span> || All Right Reserved.</p>
+    </footer>
+
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
