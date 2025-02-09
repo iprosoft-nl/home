@@ -1091,6 +1091,20 @@ footer{
         padding: 10px;
         font-size: .8rem;
     }
+
+    .about-btn {
+        margin-bottom: 1.5rem; /* Space below buttons */
+        gap: 0.5rem; /* Space between buttons */
+      }
+    
+      .content-btn {
+        margin-top: 1rem; /* Space above content */
+      }
+    
+      .tab-button {
+        margin: 0.25rem; /* Space around individual buttons */
+        padding: 0.6rem 1rem; /* Better button spacing */
+      }
 }
 
 @media(max-width:530px){
@@ -1120,7 +1134,7 @@ footer{
         margin-bottom: 3rem;
     }
     .about-btn button{
-        padding: 10px 15px;
+       /*  padding: 10px 15px; */
     }
     .fillter-buttons{
         display: grid;
@@ -1130,4 +1144,18 @@ footer{
         width: 100%;
         padding: 13px;
     }
+
+    .about-btn button {
+        margin-bottom: 1.5rem; /* Space below buttons */
+        gap: 0.5rem; /* Space between buttons */
+      }
+    
+      .content-btn {
+        margin-top: 1rem; /* Space above content */
+      }
+    
+      .tab-button {
+        margin: 0.25rem; /* Space around individual buttons */
+        padding: 0.6rem 1rem; /* Better button spacing */
+      }
 }
