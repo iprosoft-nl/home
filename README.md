@@ -1,4 +1,3 @@
 # **Personal Portfolio**
-
-This personal portfolio is specially designed for my YouTube audience.
+iProSoft home page is specially designed for our skills and experience showcase. 
 
