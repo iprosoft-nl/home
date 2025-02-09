@@ -29,18 +29,6 @@ buttons.forEach((button, index) => {
 
 
 
-// portfolio fillter 
-
-var mixer = mixitup('.portfolio-gallery',{
-    selectors: {
-        target: '.portfolio-box'
-    },
-    animation: {
-        duration: 500
-    }
-});
-
-
 // Initialize swiperjs 
 
 var swiper = new Swiper(".mySwiper", {
