@@ -105,6 +105,10 @@
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
 
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for AI tools..." class="w-full p-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+
         <!-- AI Image Generation -->
         <section class="mb-16">
             <div class="category-header rounded-t-lg py-4 px-6">
@@ -1478,30 +1482,354 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-12 px-4">
-        <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row justify-between">
-                <div class="mb-8 md:mb-0">
-                    <h3 class="text-xl font-bold mb-4">iProSoft</h3>
-                    <p class="text-gray-400 max-w-md">Where Imagination Becomes Reality! Providing cutting-edge AI solutions and software development services since 20+ years.</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
-                    <a href="https://iprosoft.nl" class="text-blue-400 hover:text-blue-300 block mb-2">Website</a>
-                    <a href="mailto:info@iprosoft.nl" class="text-blue-400 hover:text-blue-300 block mb-2">Email</a>
-                    <div class="flex mt-4 space-x-4">
-                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 iProSoft. All rights reserved.</p>
-                <p class="mt-2 text-sm">Last updated: April 2025</p>
-            </div>
+    <!-- Content Creation Tools -->
+    <h2 class="category-header">Content Creation Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">ChatGPT</h3>
+            <p class="text-gray-600 mb-6">Answers any text or question with advanced natural language processing.</p>
+            <a href="https://chat.openai.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
         </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Copy.ai</h3>
+            <p class="text-gray-600 mb-6">Writes marketing copy or blog content with AI assistance.</p>
+            <a href="https://www.copy.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Jasper AI</h3>
+            <p class="text-gray-600 mb-6">Helps with writing blogs, advertisements, and emails.</p>
+            <a href="https://www.jasper.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Grammarly</h3>
+            <p class="text-gray-600 mb-6">Detects and corrects English grammar errors and improves writing.</p>
+            <a href="https://www.grammarly.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Quillbot</h3>
+            <p class="text-gray-600 mb-6">Rewrites or paraphrases text while maintaining the original meaning.</p>
+            <a href="https://quillbot.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Writesonic</h3>
+            <p class="text-gray-600 mb-6">Creates content writing and copy generation for various purposes.</p>
+            <a href="https://writesonic.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Notion AI</h3>
+            <p class="text-gray-600 mb-6">Assists with note-taking, task management, and writing.</p>
+            <a href="https://www.notion.so/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">SlidesAI</h3>
+            <p class="text-gray-600 mb-6">Automatically creates slide presentations from text.</p>
+            <a href="https://www.slidesai.io/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Tome</h3>
+            <p class="text-gray-600 mb-6">Creates story-based presentations with AI assistance.</p>
+            <a href="https://tome.app/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+    </div>
+
+    <!-- Image & Design Tools -->
+    <h2 class="category-header">Image & Design Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Canva AI</h3>
+            <p class="text-gray-600 mb-6">AI assistance for creating designs and arranging content.</p>
+            <a href="https://www.canva.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Looka</h3>
+            <p class="text-gray-600 mb-6">Creates logo and brand designs with AI technology.</p>
+            <a href="https://looka.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Remove.bg</h3>
+            <p class="text-gray-600 mb-6">Removes image backgrounds with a single click.</p>
+            <a href="https://www.remove.bg/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Leonardo AI</h3>
+            <p class="text-gray-600 mb-6">Creates imaginative image designs based on text prompts.</p>
+            <a href="https://leonardo.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Cleanup.pictures</h3>
+            <p class="text-gray-600 mb-6">Removes unwanted objects from images.</p>
+            <a href="https://cleanup.pictures/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">AutoDraw</h3>
+            <p class="text-gray-600 mb-6">Transforms hand drawings into perfect designs.</p>
+            <a href="https://www.autodraw.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Magic Eraser</h3>
+            <p class="text-gray-600 mb-6">Removes objects from images and provides clean backgrounds.</p>
+            <a href="https://www.magiceraser.io/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Midjourney</h3>
+            <p class="text-gray-600 mb-6">Creates images from text commands with high detail.</p>
+            <a href="https://www.midjourney.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">OpenArt</h3>
+            <p class="text-gray-600 mb-6">Creates AI art and images from text descriptions.</p>
+            <a href="https://openart.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Adobe Firefly</h3>
+            <p class="text-gray-600 mb-6">Creates images and designs using AI from Adobe.</p>
+            <a href="https://firefly.adobe.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Illustroke</h3>
+            <p class="text-gray-600 mb-6">Creates SVG illustrations from text descriptions.</p>
+            <a href="https://illustroke.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Designs.ai</h3>
+            <p class="text-gray-600 mb-6">Creates logos, videos, and audio with AI assistance.</p>
+            <a href="https://designs.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+    </div>
+
+    <!-- Video Tools -->
+    <h2 class="category-header">Video Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Pictory</h3>
+            <p class="text-gray-600 mb-6">Automatically creates videos from text content.</p>
+            <a href="https://pictory.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Synthesia</h3>
+            <p class="text-gray-600 mb-6">Creates videos with AI avatars.</p>
+            <a href="https://www.synthesia.io/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Runway ML</h3>
+            <p class="text-gray-600 mb-6">Helps with video editing and AI visual effects.</p>
+            <a href="https://runwayml.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Lumen5</h3>
+            <p class="text-gray-600 mb-6">Converts blogs into videos automatically.</p>
+            <a href="https://lumen5.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Descript</h3>
+            <p class="text-gray-600 mb-6">Edits videos using text-based editing.</p>
+            <a href="https://www.descript.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Kaiber</h3>
+            <p class="text-gray-600 mb-6">Creates video animations using AI.</p>
+            <a href="https://kaiber.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Heygen</h3>
+            <p class="text-gray-600 mb-6">Creates AI-spoken videos with faces and voices.</p>
+            <a href="https://www.heygen.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Papercup</h3>
+            <p class="text-gray-600 mb-6">Dubs video voices into other languages.</p>
+            <a href="https://www.papercup.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+    </div>
+
+    <!-- Voice & Audio Tools -->
+    <h2 class="category-header">Voice & Audio Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Krisp</h3>
+            <p class="text-gray-600 mb-6">Removes background noise from calls.</p>
+            <a href="https://krisp.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Soundraw</h3>
+            <p class="text-gray-600 mb-6">Creates original music using AI.</p>
+            <a href="https://soundraw.io/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Beatoven</h3>
+            <p class="text-gray-600 mb-6">Creates music for videos and podcasts.</p>
+            <a href="https://www.beatoven.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Voicemod</h3>
+            <p class="text-gray-600 mb-6">Changes voice or adds voice effects.</p>
+            <a href="https://www.voicemod.net/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">ElevenLabs</h3>
+            <p class="text-gray-600 mb-6">Generates realistic voices.</p>
+            <a href="https://elevenlabs.io/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Play.ht</h3>
+            <p class="text-gray-600 mb-6">Converts blogs or text to voice.</p>
+            <a href="https://play.ht/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">TTSMaker</h3>
+            <p class="text-gray-600 mb-6">Generates speech from text.</p>
+            <a href="https://ttsmaker.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Murf.ai</h3>
+            <p class="text-gray-600 mb-6">Creates professional voiceovers.</p>
+            <a href="https://murf.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+    </div>
+
+    <!-- Productivity Tools -->
+    <h2 class="category-header">Productivity Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Durable</h3>
+            <p class="text-gray-600 mb-6">Creates websites in seconds.</p>
+            <a href="https://durable.co/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Replika</h3>
+            <p class="text-gray-600 mb-6">AI virtual friend or chat companion.</p>
+            <a href="https://replika.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">TinyWow</h3>
+            <p class="text-gray-600 mb-6">Offers free document, video, and PDF tools.</p>
+            <a href="https://tinywow.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">ChatPDF</h3>
+            <p class="text-gray-600 mb-6">Reads any PDF and provides a summary.</p>
+            <a href="https://www.chatpdf.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">DeepL</h3>
+            <p class="text-gray-600 mb-6">Provides professional-level translation.</p>
+            <a href="https://www.deepl.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">NameSnack</h3>
+            <p class="text-gray-600 mb-6">Suggests business names using AI.</p>
+            <a href="https://www.namesnack.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">FormX.ai</h3>
+            <p class="text-gray-600 mb-6">Extracts data from scanned documents.</p>
+            <a href="https://formx.ai/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">AI Dungeon</h3>
+            <p class="text-gray-600 mb-6">Creates interactive stories.</p>
+            <a href="https://play.aidungeon.io/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+    </div>
+
+    <!-- SEO & Marketing Tools -->
+    <h2 class="category-header">SEO & Marketing Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Scalenut</h3>
+            <p class="text-gray-600 mb-6">Plans SEO content and blogs.</p>
+            <a href="https://www.scalenut.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">INK</h3>
+            <p class="text-gray-600 mb-6">Handles SEO, writing, and marketing together.</p>
+            <a href="https://inkforall.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Tidio</h3>
+            <p class="text-gray-600 mb-6">Creates AI chatbots for websites.</p>
+            <a href="https://www.tidio.com/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Zyro AI Writer</h3>
+            <p class="text-gray-600 mb-6">Used for website or content writing.</p>
+            <a href="https://zyro.com/ai/writer" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+    </div>
+
+    <!-- Specialized AI Tools -->
+    <h2 class="category-header">Specialized AI Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="tool-card p-6">
+            <h3 class="text-xl font-semibold mb-2">Hugging Face</h3>
+            <p class="text-gray-600 mb-6">Hosts various NLP and AI tools.</p>
+            <a href="https://huggingface.co/" target="_blank" class="use-btn block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Use Now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright 2025 by <span>Muhammed Masum Islam</span> || All Right Reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            const searchTerm = this.value.toLowerCase();
+            const toolCards = document.querySelectorAll('.tool-card');
+
+            toolCards.forEach(card => {
+                const toolName = card.querySelector('h3').textContent.toLowerCase();
+                const toolDesc = card.querySelector('p').textContent.toLowerCase();
+
+                if (toolName.includes(searchTerm) || toolDesc.includes(searchTerm)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
